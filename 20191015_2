@@ -1,0 +1,31 @@
+test_list = ['one', 'two', 'three'] 
+for i in test_list: 
+...     print(i)
+
+
+
+1번 학생은 90점이고 5번 학생은 80점이다.
+
+이런 점수를 차례로 검사해서 합격했는지 불합격했는지 통보해 주는 프로그램을 만들어 보자. 역시 IDLE 에디터로 작성한다.
+
+# marks1.py
+marks = [90, 25, 67, 45, 80]
+
+number = 0 
+for mark in marks: 
+    number = number +1 
+    if mark >= 60: 
+        print("%d번 학생은 합격입니다." % number)
+    else: 
+        print("%d번 학생은 불합격입니다." % number)
+        
+        
+        
+        
+        
+>>> add = 0 
+>>> for i in range(1, 11): 
+...     add = add + i 
+... 
+>>> print(add)
+55        
